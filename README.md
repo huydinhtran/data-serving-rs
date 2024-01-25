@@ -15,6 +15,7 @@ $ sudo apt-get install python3-yaml
 On server's machine, r
 ```bash
 Setup environment
+$ cd server
 $ ./setup.sh
 
 To start server
@@ -24,6 +25,7 @@ $ python ./docker-entrypoint.py --listen-ip=192.168.1.2
 On client's machine, 
 ```bash
 Setup environment
+$ cd client
 $ ./setup.sh
 
 To warm server:
