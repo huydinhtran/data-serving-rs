@@ -27,8 +27,8 @@ Setup environment
 $ sudo ./setup.sh
 
 To warm server:
-$ ./warmup.sh <server_ip> <record_count> <threads=1>
+$ ./warmup.sh 192.168.1.2 <record_count> <threads=1>
 
 To load server:
-$ ./load.sh <server_ip> <record_count> <target_load> <threads=1> <operation_count=load * 60>
+$ ./load.sh 192.168.1.2 <record_count> <target_load> <threads=1> <operation_count=load * 60>
 ```
