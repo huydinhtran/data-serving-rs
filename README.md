@@ -12,7 +12,7 @@ $ sudo apt-get update
 $ sudo apt-get install python3-yaml
 ```
 
-On server's machine, r
+On server's machine,
 ```bash
 Setup environment
 $ cd server
