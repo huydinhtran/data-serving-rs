@@ -18,7 +18,8 @@ Setup environment
 $ cd server
 $ source ./setup.sh
 
-To start server
+To start server, need to stop current Cassandra
+$ sudo service cassandra stop
 $ sudo python ./docker-entrypoint.py --listen-ip=192.168.1.2
 ```
 
