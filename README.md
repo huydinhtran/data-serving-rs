@@ -16,7 +16,7 @@ On server's machine,
 ```bash
 Setup environment
 $ cd server
-$ ./setup.sh
+$ source ./setup.sh
 
 To start server
 $ python ./docker-entrypoint.py --listen-ip=192.168.1.2
