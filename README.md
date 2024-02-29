@@ -1,5 +1,9 @@
 # data-serving-gem5
 
+CloudSuite README
+
+https://github.com/parsa-epfl/cloudsuite/blob/main/docs/benchmarks/data-serving.md
+
 Install Cassandra and OpenJDK 11 for both server and client
 ```bash
 $ sudo apt-get update
