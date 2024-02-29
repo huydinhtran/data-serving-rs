@@ -27,7 +27,7 @@ On client's machine,
 ```bash
 Setup environment
 $ cd client
-$ ./setup.sh
+$ source ./setup.sh
 
 To warm server:
 $ ./warmup.sh 192.168.1.2 <record_count> <threads=1>
