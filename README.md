@@ -19,7 +19,7 @@ $ cd server
 $ source ./setup.sh
 
 To start server
-$ python ./docker-entrypoint.py --listen-ip=192.168.1.2
+$ sudo python ./docker-entrypoint.py --listen-ip=192.168.1.2
 ```
 
 On client's machine, 
